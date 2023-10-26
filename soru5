@@ -1,0 +1,8 @@
+
+sayi=input("Bir sayı giriniz:")
+ters=sayi[::-1]
+if sayi==ters:
+    print("Sayı palindromdur.")
+else:
+    print("Sayı palindrom değildir.")
+    

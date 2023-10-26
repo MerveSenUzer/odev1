@@ -1,0 +1,4 @@
+maas=int(input("Maaşınız(TL):"))
+zam=float(input("Zam oranı(%):"))
+zamliMaas=(maas*zam/100)+maas
+print(zamliMaas)

@@ -1,0 +1,8 @@
+
+yaricap=float(input("Dairenin Yarıçapını Giriniz (cm):"))
+pi=3.14
+print("Dairenin Çevresi: ",round(2*pi*yaricap,2),"cm'dir.")
+print("Dairenin Alanı: ",round(pi*yaricap*yaricap,2),"cm²'dir.")
+
+
+

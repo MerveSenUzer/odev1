@@ -1,0 +1,15 @@
+
+sayi1=float(input("Birinci sayı:"))
+sayi2=float(input("İkinci sayı:"))
+sayi3=float(input("Üçüncü sayı:"))
+if sayi1>sayi2:
+
+    if sayi1>sayi3:
+        print(sayi1)
+    
+    else:print(sayi3)
+
+elif sayi2>sayi3:
+    print(sayi2)
+
+else:print(sayi3)

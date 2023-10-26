@@ -1,0 +1,6 @@
+
+boy=int(input("Boyunuz(cm):"))
+kilo=int(input("Kilonuz(kg):"))
+vki=float(round(kilo*10000/(boy*boy),2))
+print(vki)
+
